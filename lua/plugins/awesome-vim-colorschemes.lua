@@ -1,3 +1,3 @@
 return {
-	'https://github.com/rafi/awesome-vim-colorschemes'
+	"https://github.com/rafi/awesome-vim-colorschemes",
 }
