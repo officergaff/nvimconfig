@@ -13,3 +13,9 @@ vim.cmd("colorscheme github")
 -- Enable both horizontal and vertical cursor lines
 vim.opt.cursorline = true   -- Highlight the line of the cursor
 vim.opt.cursorcolumn = true -- Highlight the column of the cursor
+
+-- Reload vimrc
+vim.keymap.set("n", "<leader>sv", ":source $MYVIMRC<CR>", { desc = "Source vimrc" })
+
+-- Reload current file 
+vim.keymap.set("n", "<leader>sf", ":source %<CR>", { desc = "Source current file" })
