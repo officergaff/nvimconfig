@@ -1,5 +1,10 @@
 return {
 	"nvim-neo-tree/neo-tree.nvim",
+	opts = {
+		window = {
+			close_if_last_window = true,
+		}
+	},
 	branch = "v3.x",
 	dependencies = {
 		"nvim-lua/plenary.nvim",

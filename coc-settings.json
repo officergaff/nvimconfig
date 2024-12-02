@@ -1,3 +1,53 @@
 {
-  "rust-analyzer.inlayHints.typeHints.enable": false
+  "coc.preferences.formatOnSave": true,
+  "suggest.enablePreselect": true,
+  "codeLens.enable": true,
+
+  "typescript.format.enabled": true,
+  "javascript.format.enabled": true,
+
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+
+  "prettier.enable": true,
+  "prettier.formatOnSave": true,
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "es5",
+  "prettier.parser": "typescript",
+  "prettier": {
+    "vueIndentScriptAndStyle": true,
+    "embeddedLanguageFormatting": "auto"
+  },
+  "prettier.embeddedLanguageFormatting": "auto",
+
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+
+  "languageserver": {
+    "html": {
+      "command": "vscode-html-language-server",
+      "args": ["--stdio"],
+      "filetypes": ["html"],
+      "initializationOptions": {
+        "provideFormatter": true
+      },
+      "ignoredRootPaths": ["~"]
+    },
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".git/"],
+      "filetypes": ["go"],
+      "initializationOptions": {
+        "usePlaceholders": true,
+        "completeUnimported": true
+      }
+    }
+  },
+  "go.goplsOptions": {
+    "formatting.gofumpt": true
+  }
 }
