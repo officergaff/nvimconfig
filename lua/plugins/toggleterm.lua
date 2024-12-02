@@ -18,8 +18,6 @@ return {
         },
         on_open = function(term)
             -- Terminal keymaps
-            vim.keymap.set('t', '<esc>', '<C-\\><C-n>', { buffer = term.bufnr })
-            vim.keymap.set('t', 'jk', '<C-\\><C-n>', { buffer = term.bufnr })
             vim.keymap.set('t', '<C-h>', '<cmd>wincmd h<CR>', { buffer = term.bufnr })
             vim.keymap.set('t', '<C-j>', '<cmd>wincmd j<CR>', { buffer = term.bufnr })
             vim.keymap.set('t', '<C-k>', '<cmd>wincmd k<CR>', { buffer = term.bufnr })
