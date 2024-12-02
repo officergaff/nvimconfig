@@ -8,7 +8,7 @@ vim.wo.relativenumber = true
 vim.opt.clipboard:append("unnamedplus")
 vim.cmd("syntax enable")
 vim.cmd("filetype plugin indent on")
-vim.cmd("colorscheme gruvbox")
+vim.cmd("colorscheme dracula")
 
 -- Enable both horizontal and vertical cursor lines
 vim.opt.cursorline = true   -- Highlight the line of the cursor
