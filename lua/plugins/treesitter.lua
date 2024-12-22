@@ -14,6 +14,7 @@ return {
 					"tsx",
 					"css",
 					"json",
+                    "go",
 				},
 				highlight = { enable = true }, -- Enables syntax highlighting
 				indent = { enable = true }, -- Enables smart indentation
