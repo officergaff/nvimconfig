@@ -49,5 +49,9 @@
   },
   "go.goplsOptions": {
     "formatting.gofumpt": true
-  }
+  },
+
+  "python.pythonPath": ".venv/bin/python",
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.extraPaths": [".", "src"]
 }
